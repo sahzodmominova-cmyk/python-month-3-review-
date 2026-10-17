@@ -1,0 +1,5 @@
+raqamlar=list(map(int, input("raqam kiriting: ").split()))
+natija=set(raqamlar)
+eng_kata=max(natija)
+raqamlar.remove(eng_kata)
+print(f"ikkinchi eng kata raqam {max(raqamlar)}")
